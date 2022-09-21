@@ -15,4 +15,9 @@ django-admin startproject 'name your project' .
 # example
 django-admin startproject myapp . 
 ```
+## Run project 
+```bash
+python manage.py runserver || python manage.py runserver 3000
+```
+
 
