@@ -19,5 +19,12 @@ django-admin startproject myapp .
 ```bash
 python manage.py runserver || python manage.py runserver 3000
 ```
+## Create an app
+```bash
+python manage.py startapp 'name your app'
+# example
+python manage.py startapp blog
+```
+
 
 
