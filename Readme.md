@@ -33,5 +33,11 @@ from django-http import HttpResponse
 def hello_view(request):
     return HttpResponse('Hello, world')
 ```
-
+## Include your views in url path 
+```bash
+# import views
+urlpatterns = [
+    path('', views.hello_view)
+]
+```
 
