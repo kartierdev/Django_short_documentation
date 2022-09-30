@@ -1,4 +1,4 @@
-# Learning Django 
+# Learn Django 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ## Create virtual env 
@@ -26,6 +26,12 @@ python manage.py startapp 'name your app'
 # example
 python manage.py startapp blog
 ```
-
+## Create a views 
+```bash
+from django-http import HttpResponse
+# Createa a view
+def hello_view(request):
+    return HttpResponse('Hello, world')
+```
 
 
