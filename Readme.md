@@ -40,4 +40,16 @@ urlpatterns = [
     path('', views.hello_view)
 ]
 ```
-
+## Interactue with db
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+## Create your models
+```bash
+from django.db import models
+# create model
+class Project(models.Mode):
+    name = models.CharField(max_length=200)
+    
+```
