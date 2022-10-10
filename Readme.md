@@ -51,5 +51,9 @@ from django.db import models
 # create model
 class Project(models.Mode):
     name = models.CharField(max_length=200)
-    
+
+class Model(models.Model):
+    name =  models.CharField(max_length=200)
+    description = TextField()
+    project = models.ForeignKey(Project)
 ```
