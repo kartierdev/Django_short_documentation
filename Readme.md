@@ -78,4 +78,10 @@ Projects.objects.all() # All Prjects
 Projects.objects.get(id=1) # For Id
 Projects.objexts.get(name="Page Web with Django") # Fro name
 projects.save()
+# Create Task and interactions
+from myapp.models import Project, Task
+p = Project.objects.get(id=1)
+p.task.set.all()
+p.task_set.create(title="Install pycharn")
+
 ```
