@@ -69,3 +69,9 @@ DATABASES = {
 }
 
 ```
+## Create data on databae
+```bash
+from myapp.models import Project, Task # Your models
+projects = Project(name="Page Web with Django")
+projects.save()
+```
