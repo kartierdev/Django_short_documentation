@@ -73,5 +73,9 @@ DATABASES = {
 ```bash
 from myapp.models import Project, Task # Your models
 projects = Project(name="Page Web with Django")
+# Get projects
+Projects.objects.all() # All Prjects
+Projects.objects.get(id=1) # For Id
+Projects.objexts.get(name="Page Web with Django") # Fro name
 projects.save()
 ```
